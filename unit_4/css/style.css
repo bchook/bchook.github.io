@@ -10,18 +10,18 @@ body {
 	padding: 100px;
 	font-size: 12px; /*1em = 12px*/
 	text-align: center;
-	position: relative;
-	font-family: 'Helvetica'; serif;}
+	position: relative;}
+
+div{}
 
 header {
-	margin:200px 0 0;
-}
+	margin:200px 0 0;}
 
-nav {font-family: 'Lato'; san-serif;}
+nav {
+	font-family: 'Lato'; san-serif;}
 
-section {}
-
-footer {padding: 20px}
+section {
+	padding-bottom: 20px;}
 
 h1 {}
 
@@ -34,12 +34,16 @@ h2 {
 	letter-spacing: 1px;
 	font-family: 'Lato'; san-serif;}
 
+h3 {
+	font-family: 'Lato'; san-serif;
+	font-size: 1em;
+	text-transform: uppercase;}
 
 p {
 	font-size: 1em;
 	font-family: 'Merriweather'; serif; 
 	line-height: 2em;
-	margin-bottom: 20px;}
+	padding-bottom: 20px}
 
 a {
 	color: inherit;
@@ -69,7 +73,8 @@ img {
 	background-size: cover;}
 
 #hero_content {
-	text-align: center;}
+	text-align: center;
+	word-spacing: 1px;}
 
 .header_title{
 	font-family: 'Lato'; san-serif;}

@@ -17,37 +17,19 @@ nav {
 	font-family: 'Lato'; san-serif;
 	letter-spacing: .5px;
 	font-weight: lighter;
-	word-spacing: 1px;
-background-color: #E8C66A;
-border: 1px black solid;
-padding: 20px;}
+	word-spacing: 1px;}
 
-nav a { 
-	color: #8E99A8;}
+nav a { }
 
-header {
-background-color: #FFED74;
-border: 1px black solid;
-padding: 20px;}
+header {}
 
-main {
-	background-color: #E89C6C;
-border: 1px black solid;
-padding: 20px;}	
+main {}	
 
 main p {padding: 10px 0;}
 
-section {
-	background-color: #FFE2B8;
-border: 1px black solid;
-padding: 20px;
-}
+section {}
 
-footer {
-	background-color: #FF957E;
-border: 1px black solid;
-padding: 20px;
-}
+footer {}
 
 h1 {}
 

@@ -6,9 +6,9 @@
 	box-sizing: border-box;}
 
 body {
-	margin: 0 50px;
+	margin: ;
 	font-family: 'Lato'; san-serif; 
-	font-size: 12px; /*1em = 12px*/
+	font-size: 16px; /*1em = 16px*/
 	text-align: center;}
 
 
@@ -30,12 +30,14 @@ a {
 header {}
 
 main {
+	margin: 0 50px;
 	padding-bottom: 30px;}	
 
 main p {
 	padding: 10px 0;}
 
-section {}
+section {
+	margin: 0 50px;}
 
 footer {}
 

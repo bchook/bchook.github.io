@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+
+body {
+	font-family: 'Lato'; san-serif;
+	font-size: 16px; /*1em = 16px*/
+	text-align: center;
+	line-height: 1.5em;}
+
+nav {
+	font-family: 'Lato'; san-serif;
+	font-size: 1em;
+	letter-spacing: .5px;
+	word-spacing: 15px;
+	color: #58829C;
+	text-transform: uppercase;}
+
+a { 
+	color: inherit;
+	text-decoration: none;}
+
+header {}
+
+main {}
+
+.intro {
+	width: 80%;
+	margin: auto;
+	/*padding: 120px 0 40px 0;*/}	
+
+.more {
+	width: 80%;
+	margin: auto;
+	padding: 40px 0;}
+
+section {}
+
+article {}
+
+footer {}
+
+h1 {font-family: 'Merriweather'; serif;
+	font-weight: 300;
+	font-size: 1.8em;
+	letter-spacing: .5px;
+	word-spacing: 1px;
+	line-height: 1.5em;
+	color: #58829C;}
+
+h2 {
+	font-family: 'Lato'; san-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	word-spacing: 1px;
+	color: #58829C;
+	padding-bottom: 20px;}
+
+h3	{
+	font-family: 'Lato'; san-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	word-spacing: 1px;
+	color: #58829C;}
+
+p {
+	padding-bottom: 10px;}
+
+img {
+	width: 100%;}
+
+.wrapper {
+	margin: auto;}
+
+#logo {
+	width: 20%;
+	float: left;
+	vertical-align: baseline;
+}
+
+#nav_bar { 
+	background: #ffffff;
+	position: fixed;
+	width: 100%;
+	padding: 20px;
+	/*border-bottom: 1px solid #58829C;*/
+}
+
+.navlinks {
+	float: right;
+	margin: 20px;
+	vertical-align: baseline;
+}
+
+#hero {
+	width: 100%
+	margin: auto;
+}
+
+.gallery_board {
+	padding-bottom: 40px;
+}
+
+.group_1_col_1 {
+	width: 50%;
+	float: left;
+}
+.image_top_left{
+	width: 100%;
+	float: left;
+}
+
+.image_bottom_left {
+	width: 50%;
+	float: left;
+}
+.image_bottom_right {
+	width: 50%;
+	float: left;
+}
+
+.group_2_col_2 {
+	width: 50%;
+	float: left;
+}
+
+.image_top_left_2{
+	width: 50%;
+	float: left;
+}
+
+.image_top_right_2 {
+	width: 50%;
+	float: left;
+}
+.image_bottom_right_2 {
+	width: 100%;
+	float: left;
+}
+
+#social {
+	font-family: 'Lato'; san-serif;
+	font-size: 1em;
+	word-spacing: 15px;
+	text-transform: uppercase;
+	color: #58829C;
+	padding: 100px 0;}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+	padding: 20px 0;}
+
+

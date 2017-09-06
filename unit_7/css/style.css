@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 
 * {
@@ -9,71 +10,85 @@
 
 body {
 	font-family: 'Lato'; san-serif;
-	font-size: 16px; /*1em = 16px*/
+	font-weight: 300;
+	font-size: 18px; /*1em = 16px*/
+	color: #58829C;
 	text-align: center;
-	line-height: 1.5em;}
+	line-height: 1.5em;
+	letter-spacing: .02em;
+	padding-top: 7%;
+}
+
+header {}
 
 nav {
 	font-family: 'Lato'; san-serif;
 	font-size: 1em;
-	letter-spacing: .5px;
-	word-spacing: 15px;
+	letter-spacing: .08em;
 	color: #58829C;
-	text-transform: uppercase;}
+	text-transform: uppercase;
+}
 
 a { 
 	color: inherit;
 	text-decoration: none;}
 
-header {}
+#nav_bar { 
+	background: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 2%;
+}
 
-main {}
+.navlinks {
+	float: right;
+	vertical-align: baseline;
+}
 
 .intro {
 	width: 80%;
 	margin: auto;
-	/*padding: 120px 0 40px 0;*/}	
+	padding-bottom: 5%;}	
 
-.more {
+.kids, .festival, .subhead {
 	width: 80%;
 	margin: auto;
-	padding: 40px 0;}
+	padding-bottom: 5%;}
 
-section {}
+.subhead {
+	font-family: 'Sacramento', cursive;
+	width: 80%;
+	font-size: 3em;
+	line-height: 1em;
+	padding: 5% 0;
+}
 
-article {}
-
-footer {}
-
-h1 {font-family: 'Merriweather'; serif;
+h1 {font-family: 'Sacramento', cursive;
 	font-weight: 300;
-	font-size: 1.8em;
-	letter-spacing: .5px;
-	word-spacing: 1px;
-	line-height: 1.5em;
+	font-size: 3em;
+	line-height: 1em;
 	color: #58829C;}
 
 h2 {
 	font-family: 'Lato'; san-serif;
 	font-size: 1.3em;
+	font-weight: 300;
 	text-transform: uppercase;
-	letter-spacing: .5px;
-	word-spacing: 1px;
+	letter-spacing: .05em;
+	word-spacing: .02em;
 	color: #58829C;
-	padding-bottom: 20px;}
-
-h3	{
-	font-family: 'Lato'; san-serif;
-	font-size: 1em;
-	text-transform: uppercase;
-	word-spacing: 1px;
-	color: #58829C;}
+	padding-bottom: 3%;}
 
 p {
-	padding-bottom: 10px;}
+	padding-bottom: 1%;}
 
 img {
-	width: 100%;}
+	width: 100%;
+	display: block;}
+
+li{list-style: none;}
 
 .wrapper {
 	margin: auto;}
@@ -84,31 +99,20 @@ img {
 	vertical-align: baseline;
 }
 
-#nav_bar { 
-	background: #ffffff;
-	position: fixed;
-	width: 100%;
-	padding: 20px;
-	/*border-bottom: 1px solid #58829C;*/
-}
-
 .navlinks {
 	float: right;
-	margin: 20px;
+	margin: 3%;
 	vertical-align: baseline;
 }
 
 #hero {
 	width: 100%
 	margin: auto;
-}
-
-.gallery_board {
-	padding-bottom: 40px;
+	padding-bottom: 5%;
 }
 
 .group_1_col_1 {
-	width: 50%;
+	width: 33.33%;
 	float: left;
 }
 .image_top_left{
@@ -126,7 +130,7 @@ img {
 }
 
 .group_2_col_2 {
-	width: 50%;
+	width: 33.33%;
 	float: left;
 }
 
@@ -144,13 +148,25 @@ img {
 	float: left;
 }
 
+.group_3_col_3 {
+	width: 33.33%;
+	float: left;
+}
+
+.alicia {
+	font-family: 'Sacramento', cursive;
+	font-size: 3em;}
+
 #social {
-	font-family: 'Lato'; san-serif;
-	font-size: 1em;
-	word-spacing: 15px;
-	text-transform: uppercase;
-	color: #58829C;
-	padding: 100px 0;}
+	padding: 10% 0;
+    font-size: 1.5em;
+    text-align: center;
+    color: #58829C;}
+
+/*all social*/
+.fa {
+    padding: 0 .5em;
+}
 
 .clearfix:after {
     visibility: hidden;
@@ -159,6 +175,6 @@ img {
     content: " ";
     clear: both;
     height: 0;
-	padding: 20px 0;}
+	padding: 5% 0;}
 
 

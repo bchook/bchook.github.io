@@ -244,10 +244,13 @@ h1 {padding-top: 50%;}
 @media only screen and (max-width: 550px){
 
 body {
-	padding-top: 50%;
-	font-size: 1.1em;}
+	padding-top: 55%;
+	font-size: 1.15em;}
 
 header {padding:0 15%;}
+
+.kids, .festival, .testimonials {
+	width: 80%;}
 
 #logo {
 	width: 50%;
@@ -258,7 +261,7 @@ header {padding:0 15%;}
 .navlinks {
 	float: none;
 	display: block;
-	padding: 2%; }
+	padding: 3%; }
 
 .package{
 	width:100%;
@@ -268,10 +271,11 @@ header {padding:0 15%;}
 	padding: 5% 0}
 
 .subhead {
-	width: 90%;
-	font-size: 1.1em;
-	line-height: 1.3em;
-	padding-bottom: 10%;}
+	font-size: 1.2em;
+	line-height: 1.3em;}
+
+.alicia {
+	padding: 5% 0;}
 
 .group_1_col_1 {
 	width: 100%;

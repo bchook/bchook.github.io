@@ -72,12 +72,8 @@ li {
 
 ul {list-style: none;}
 
-hr {width: 80%;
-	color: #58829C;
-	margin: auto;}
-
 footer {
-	width: 80%;
+	width: 85%;
 	margin: auto;}
 
 
@@ -101,12 +97,12 @@ footer {
 	padding: 2%;}
 
 .intro {
-	width: 80%;
+	width: 85%;
 	margin: auto;
 	padding-bottom: 5%;}	
 
 .kids, .festival, .subhead, .testimonials {
-	width: 80%;
+	width: 85%;
 	margin: auto;}
 
 .festival {padding-bottom: 3%;}
@@ -134,7 +130,7 @@ footer {
 	padding-bottom: 2%;}
 
 #contact {
-	width: 80%;
+	width: 85%;
 	margin: auto;}
 
 #contact-wrap{
@@ -144,7 +140,7 @@ footer {
 
 .subhead {
 	font-family: 'Racing Sans One', serif;
-	width: 80%;
+	width: 85%;
 	font-size: 1.3em;
 	letter-spacing: .03em;
 	line-height: 1.5em;
@@ -244,6 +240,7 @@ h1 {padding-top: 50%;}
 
 }
 
+/*-------------------------------------------------------------*/
 @media only screen and (max-width: 550px){
 
 body {
@@ -259,7 +256,8 @@ header {padding:0 15%;}
 
 .navlinks {
 	float: none;
-	display: block; }
+	display: block;
+	padding: 2%; }
 
 .package{
 	width:100%;

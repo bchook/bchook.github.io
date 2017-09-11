@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+
+body {
+	font-family: 'Lato'; san-serif;
+	font-weight: 300;
+	font-size: 16px; /*1em = 16px*/
+	color: #58829C;
+	text-align: center;
+	line-height: 1.5em;
+	padding-top: 7%;}
+
+header {padding:0 20%;}
+
+nav {
+	font-family: 'Lato'; san-serif;
+	font-size: 1em;
+	letter-spacing: .05em;
+	color: #58829C;
+	text-transform: uppercase;}
+
+a { 
+	color: inherit;
+	text-decoration: none;}
+
+p {padding: .5% 0;}
+
+h1 {font-family: 'Racing Sans One', serif;
+	font-weight: 400;
+	font-size: 4em;
+	line-height: 1em;
+	color: #F05A63;
+	padding: 45% 0;}
+
+h2 {
+	font-family: 'Lato'; san-serif;
+	font-size: 1.3em;
+	letter-spacing: .04em;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #58829C;
+	padding-top: 6%;
+	padding-bottom: 2%;}
+
+h3 {font-family: 'Lato'; san-serif;
+	font-size: 1.2em;
+	letter-spacing: .04em;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding-top: 3%;
+	padding-bottom: 2%;}
+
+h4 {font-family: 'Lato'; san-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	padding-top: 3%;}
+
+img {
+	width: 100%;
+	display: block;}
+
+li {
+	list-style: none;}
+
+ul {list-style: none;}
+
+hr {width: 80%;
+	color: #58829C;
+	margin: auto;}
+
+footer {
+	width: 80%;
+	margin: auto;}
+
+
+#logo {
+	width: 20%;
+	float: left;
+	vertical-align: baseline;}
+
+.navlinks {
+	float: right;
+	margin: 3%;
+	vertical-align: baseline;
+}
+
+#nav_bar { 
+	background: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 2%;}
+
+.intro {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 5%;}	
+
+.kids, .festival, .subhead, .testimonials {
+	width: 80%;
+	margin: auto;}
+
+.festival {padding-bottom: 3%;}
+
+#package-wrap{
+	width:100%;
+	margin:auto;
+	background-color: #58829C;}
+
+.package{
+	width:31%;
+	padding:1%;
+	margin:1%;
+	float:left;
+	color: #ffffff;}
+
+.testimonials {
+	padding-bottom: 3%;
+}
+
+#each_testimonial {
+	font-weight: 400;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	padding-bottom: 2%;}
+
+#contact {
+	width: 80%;
+	margin: auto;}
+
+#contact-wrap{
+	width:100%;
+	margin:auto;
+	background-color: #58829C;}
+
+.subhead {
+	font-family: 'Racing Sans One', serif;
+	width: 80%;
+	font-size: 1.3em;
+	letter-spacing: .03em;
+	line-height: 1.5em;
+	padding: 3% 0;}
+
+#hero {
+	width: 100%
+	margin: auto;
+	padding-bottom: 5%;}
+
+.alicia {
+	font-family: 'Racing Sans One', serif;
+	font-size: 2em;}
+
+#contact {color: #ffffff;}
+
+#social {
+	padding: 10% 0;
+    font-size: 1.5em;
+    text-align: center;}
+
+/*all social*/
+.fa {
+    padding: 0 .5em;}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+	padding: 5% 0;}
+
+/*GALLERY*/
+.group_1_col_1 {
+	width: 33.33%;
+	float: left;}
+
+.image_top_left{
+	width: 100%;
+	float: left;}
+
+.image_bottom_left {
+	width: 50%;
+	float: left;}
+
+.image_bottom_right {
+	width: 50%;
+	float: left;}
+
+.group_2_col_2 {
+	width: 33.33%;
+	float: left;}
+
+.image_top_left_2{
+	width: 50%;
+	float: left;}
+
+.image_top_right_2 {
+	width: 50%;
+	float: left;}
+
+.image_bottom_right_2 {
+	width: 100%;
+	float: left;}
+
+.group_3_col_3 {
+	width: 33.33%;
+	float: left;}
+
+#lander {background:url(../images/alicia_artist_hero.png) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 75%;
+	padding: 2% 0;}
+
+/*-------------------------------------------------------------*/
+@media only screen and (max-width: 750px){
+
+#logo {
+	width: 40%;
+	float: none;
+	margin: auto;
+	padding-bottom: 5%;}
+
+.navlinks {
+	float: none;
+	margin: auto;
+	padding: 0 2%;}
+
+header {padding:0 10%;}
+
+h1 {padding-top: 50%;}
+
+}
+
+@media only screen and (max-width: 550px){
+
+body {
+	padding-top: 50%;}
+
+header {padding:0 15%;}
+
+#logo {
+	width: 50%;
+	float: none;
+	margin: auto;
+	padding: 3% 0;}
+
+.navlinks {
+	float: none;
+	display: block; }
+
+.package{
+	width:100%;
+	float:none;}
+
+#package-wrap{
+	padding: 5% 0}
+
+.subhead {
+	width: 90%;
+	font-size: 1.1em;
+	line-height: 1.3em;
+	padding-bottom: 10%;}
+
+.group_1_col_1 {
+	width: 100%;
+	float: none;}
+
+.group_2_col_2 {
+	width: 50%;
+	float: left;}
+
+.group_3_col_3 {
+	width: 50%;
+	float: left;}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+	padding: 0 0;}
+}
+

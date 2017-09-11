@@ -244,7 +244,8 @@ h1 {padding-top: 50%;}
 @media only screen and (max-width: 550px){
 
 body {
-	padding-top: 50%;}
+	padding-top: 50%;
+	font-size: 1.1em;}
 
 header {padding:0 15%;}
 

@@ -39,7 +39,7 @@ h1 {font-family: 'Racing Sans One', serif;
 	font-weight: 400;
 	font-size: 4em;
 	line-height: 1em;
-	color: #F05A63;
+	color: #ffffff;
 	padding: 45% 0;}
 
 h2 {
@@ -276,6 +276,9 @@ label{
 	padding: 0 20%;
 }
 
+h2 {
+	font-weight: 400;
+}
 .kids, .festival, .testimonials {
 	width: 80%;}
 

@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -17,10 +18,12 @@
 	                <label for="toggle">Menu</label>
           			<input type="checkbox" id="toggle">
           			<div class="menu">
-					<a class="navlinks" href="#">Contact</a>
-					<a class="navlinks" href="#">Testimonials</a>
-					<a class="navlinks" href="#">Services</a>
-					<a class="navlinks" href="https://www.instagram.com/colour_pot_faces/">Gallery</a>
+
+					<a class="navlinks" href="#kids">about</a>
+					<a class="navlinks" href="https://www.instagram.com/colour_pot_faces/">gallery</a>
+					<a class="navlinks" href="#package-wrap">Services</a>
+					<a class="navlinks" href="#testimonials">Testimonials</a>
+					<a class="navlinks" href="#contact">Contact</a>
 					</div>
 	            </nav>
 
@@ -29,7 +32,7 @@
 	        	</header>  
         </div>	    
 
-		<article class="kids">
+		<article class="kids" id="kids">
 				<h2>about Colour Pot</h2>
 					<p>Imagination is a wonderful thing. Just add colour + glitter - the possibilities are endless!</p>
 					<p>Colour Pot was born from my passion to create. With fabulous face painting designs, for boys and girls, I am always up to date with the latest ideas and techniques.</p> 
@@ -44,7 +47,7 @@
 					<p>Event? We will ensure your guests leave creatively painted after having had a great face painting experience with Colour Pot.</p>
 		</article>
 			
-		<section class="gallery">
+		<section class="gallery clearfix">
 				<ul class="group_1_col_1 clearfix">
 					<li class="image_top_left">
 							<img src="images/kid_1.png" alt="girl with face painted" title="girl with butterfly design face paint"></li>
@@ -95,7 +98,7 @@
         	</section>
         </div>	
 
-		<section class="gallery">
+		<section class="gallery clearfix">
 				<ul class="group_1_col_1 clearfix">
 					<li class="image_top_left">
 							<img src="images/adult_6.png"></li>
@@ -125,7 +128,7 @@
 				</ul>
 		</section>
 		
-		<article class="testimonials">			
+		<article class="testimonials" id="testimonials">			
 				<h2>Testimonials</h2>
 					<section id="each_testimonial">
 					<p>"The event was fantastic, and the artist was very popular. They had a constant line the whole time! Overall we were really happy with Colour Pot." - Claire, AMP</p>
@@ -153,6 +156,40 @@
 		</footer>
 
 	</div>
-
+<script type="text/javascript">$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top -200
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });</script>
 </body>
 </html>
